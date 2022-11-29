@@ -1,0 +1,18 @@
+# data
+train_dataframe: "data_info.csv"
+test_dataframe: "data_info_test.csv"
+train_path_prefix: "/data/bvshelhonov/tcc-data/train"
+test_path_prefix: "/data/bvshelhonov/tcc-data/test"
+val_size: 0.15
+
+# device
+device_index: "2"
+device: "cuda"
+
+# learning parameters
+learning_rate: 0.001
+batch_size: 32
+
+# testing
+checkpoint: "checkpoints/last.pth"
+test_batch_size: 48
