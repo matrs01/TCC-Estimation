@@ -1,0 +1,9 @@
+albumentations
+torch
+torchvision
+catalyst
+spacecutter
+tqdm
+matplotlib
+numpy
+scipy
