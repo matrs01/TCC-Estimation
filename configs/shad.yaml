@@ -1,0 +1,28 @@
+# logging
+wandb_on: true
+
+# data
+train_dataframe: "data_info.csv"
+test_dataframe: "data_info_test.csv"
+train_path_prefix: "/data/bvshelhonov/tcc-data/train"
+test_path_prefix: "/data/bvshelhonov/tcc-data/test"
+val_size: 0.05
+
+# model
+base_model: "efficientnet-b7"
+freeze_len: 0
+
+# device
+device_index: "2"
+device: "cuda"
+
+# learning parameters
+from_checkpoint: "checkpoints/train_unfreezed.1_full.pth"
+learning_rate: 0.001
+weight_decay: 0.0001
+batch_size: 8
+wandb_log_period: 25
+
+# testing
+checkpoint: "checkpoints/train_unfreezed.1.pth"
+test_batch_size: 48

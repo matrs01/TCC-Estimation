@@ -7,3 +7,9 @@ tqdm
 matplotlib
 numpy
 scipy
+sklearn
+pandas
+wandb
+efficientnet_pytorch
+ipynb-py-convert
+imgaug
